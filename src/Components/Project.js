@@ -5,7 +5,7 @@ import Card from "react-bootstrap/Card";
 function Project(props) {
     return (
         <div>
-            <Card style={{width:"50%"}}>
+            <Card style={{width:"75%"}}>
             <Card.Body>
                 <Card.Title>{props.title}</Card.Title>
                 <Card.Text>{props.text}</Card.Text>
@@ -13,7 +13,7 @@ function Project(props) {
                 <p></p>
                 <Button href={props.deployed}>See deployed:</Button>
             </Card.Body>
-            <Card.Img variant="bottom" style={{width: "50rem"}} src={props.img} />
+            <Card.Img variant="bottom" style={{width: "50%", border: "solid", padding: "10px"}} src={props.img} />
             </Card>
             <hr></hr>
         </div>

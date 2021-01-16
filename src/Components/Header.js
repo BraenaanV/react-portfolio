@@ -1,4 +1,5 @@
 import Jumbotron from 'react-bootstrap/Jumbotron'
+import "./style.css";
 
 function Header() {
     return(

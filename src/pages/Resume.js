@@ -1,9 +1,12 @@
-
+const h1Style={
+    textAlign: "center",
+}
 
 function Resume() {
     return(
         <div className="container">
-            <h1 className="resHead">Braenaan Vaughan</h1>
+            <h1 className="resHead" style={h1Style}>Braenaan Vaughan</h1>
+            <br></br>
             <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md-8">
