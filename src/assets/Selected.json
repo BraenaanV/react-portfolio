@@ -1,6 +1,6 @@
 [
     {
-        "img": "./Quiz.PNG",
+        "img": "../../public/quiz.png",
         "title": "Coding Quiz",
         "text": "This was the first HTML / JS project I did solo",
         "repo": "https://github.com/BraenaanV/Coding-Quiz",
